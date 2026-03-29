@@ -263,9 +263,9 @@ function rateBook(bookId) {
     if (rating && rating >= 1 && rating <= 5) {
         book.rating = parseInt(rating);
         displayReadBooks();
-        showToast(`Rated "${book.title}" ${rating} stars!`, 'success');
+        showToast(`Rated "${book.title}" ${rating} stars!`);
     } else if (rating) {
-        showToast('Please enter a rating between 1 and 5', 'error');
+        showToast('Please enter a rating between 1 and 5');
     }
 }
 
