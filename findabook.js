@@ -1,15 +1,15 @@
 
 
 
-// Swiper is an external library. We just configure it here.
+// Swiper is an external library. W
 
 if (document.querySelector('.bookSwiper')) {
     let bookSwiper = new Swiper('.bookSwiper', {
-        effect: 'coverflow',        // gives the 3D flip effect
-        grabCursor: true,           // shows a grab hand cursor on hover
+        effect: 'coverflow',        // this one is to give the 3D flip effect
+        grabCursor: true,           
         centeredSlides: true,       // keeps the active slide in the center
         slidesPerView: 3,           // shows 3 slides at a time
-        loop: true,                 // loops back to first after last slide
+        loop: true,                 // loops back to first one
 
         autoplay: {
             delay: 2500,                    // moves to next slide every 2.5 seconds
